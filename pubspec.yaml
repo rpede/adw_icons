@@ -1,6 +1,6 @@
 name: adw_icons
-description: "A new Flutter package project."
-version: 0.0.1
+description: "Adwaita icon theme for Flutter."
+version: 1.0.0+46.2
 homepage:
 
 environment:
