@@ -22,7 +22,7 @@ void main() async {
   final source =
       await DartEmitter.convertToClassConst("AdwIconData", properties);
 
-  final outFile = File('lib/adw_icon_data.dart');
+  final outFile = File('lib/src/adw_icon_data.dart');
   if (await outFile.exists()) outFile.delete();
   outFile.writeAsString(source);
 }
